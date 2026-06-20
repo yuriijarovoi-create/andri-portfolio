@@ -34,7 +34,7 @@ export default function Navbar() {
           <ul className="navbar__list">
             {navLinks.map(({ path, label }) => (
               <li key={path}>
-                <NavLink
+               <NavLink
                   to={path}
                   end={path === '/'}
                   className={({ isActive }) =>
